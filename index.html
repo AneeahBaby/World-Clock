@@ -14,28 +14,32 @@
 <body>
     <div class="container"> 
     <h1>World Clock</h1>
-    <select>
+    <select id="city">
         <option value="">Select a city..</option>
-        <option value="">New York</option>
-        <option value="">Pensacola</option>
-        <option value="">Los Angeles</option>
+        <option value="America/New_York">New York</option>
+        <option value="America/Costa_Rica">Costa Rica</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
     </select>
+    <div id="cities">
     <div class="city" id="new-york">
         <div>
         <h2>New York</h2>
-         <div class="date">October 25th 2023</div>
+         <div class="date"></div>
         </div>
-         <div class="time">1:04:39 <small>PM</small></div>
+         <div class="time"></div>
          </div>
-    <div class="city" id="pensacola">
+    <div class="city" id="CostaRica">
         <div>
-         <h2>Pensacola</h2>
-         <div class="date">October 25th 2023</div>
+         <h2>Costa Rica</h2>
+         <div class="date"></div>
         </div>
-         <div class="time">11:04:39 <small>PM</small></div>
+         <div class="time"></div>
    </div>
    </div>
-    <footer>Project coded by Aneeah Bailey and is <a href="https://github.com/AneeahBaby/World-Clock"> open sourced on Github</a></footer>
+    </div>
+    <footer>
+        Project coded by Aneeah Bailey and is <a href="https://github.com/AneeahBaby/World-Clock"> open sourced on Github</a>
+    </footer>
 <script src="javascript/index.js"></script>
 </body>
 </html>
